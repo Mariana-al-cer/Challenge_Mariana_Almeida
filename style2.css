@@ -94,7 +94,7 @@ textarea{
     margin-left: 20%;
     margin-top: 3%;
     padding: 2% 0%;
-    position:absolute;
+    position:relative;
     height: 40%;
     width: 30%;
     box-shadow: 10px 24px 32px 8px black;
