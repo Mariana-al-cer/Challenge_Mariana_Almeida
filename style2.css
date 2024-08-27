@@ -91,15 +91,13 @@ textarea{
     border: none;
     border-radius: 24px;
     color: #427a5b;
-    margin-left: 40%;
-    margin-top: 10%;
+    margin-left: 20%;
+    margin-top: 3%;
     padding: 2% 0%;
-    position:relative;
-    height: 90%;
-    width: 70%;
+    position:absolute;
+    height: 40%;
+    width: 30%;
     box-shadow: 10px 24px 32px 8px black;
-    display: flex;
-    overflow: hidden;
 }
 
 .texto_derecha:focus{
@@ -153,7 +151,7 @@ textarea{
     height: 10%;
     margin-left: 40%;
     margin-top: 25%;
-    position: relative;
+    position: absolute;
     width: 10%;
     font-size: 60%;
     box-sizing: border-box;
@@ -168,13 +166,12 @@ textarea{
     height: 10%;
     margin-left: 20%;
     margin-top: 25%;
-    position: relative;
+    position: absolute;
     width: 10%;
     font-size: 60%;
     background-color: #3baea0;
     box-sizing: border-box;
 }
-
 .Detalles{
     color: rgb(217, 78, 47);
     font-size: 18px;
