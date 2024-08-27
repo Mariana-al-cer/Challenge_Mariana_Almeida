@@ -427,6 +427,7 @@ footer{
         font-size: 70%;
         margin-left: 100%;
         height: 30%;
+        width: 100%; 
     }
 
     .desencritpa{
@@ -435,6 +436,7 @@ footer{
         font-size: 65%;
         margin-left: 100%;
         height: 30%;
+        width: 120%;
     }
 
     footer {
