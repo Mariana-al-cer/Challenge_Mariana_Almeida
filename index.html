@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challegne Mariana</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img src="alura_inicial.png" alt="logo de alura" class="logo">
+        <h1>Encriptador de texto</h1>
+    </header>
+    <main class="cuadros_texto">
+        <section class="cuadro_izquierda">
+            <textarea class="texto_izquierda" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="Detalles">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="boton">
+                <button class="encirpta" onclick="botonEncriptar()">Encriptar</button>
+                <button class="desencritpa" onclick="botonDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="cuadro_derecha">
+        <textarea class="texto_derecha"></textarea>
+            <div class="botonesDerecha">
+                <button class="limpiar_txt" onclick="Limpiartxt()">Limpiar</button>
+                <button class="copiar_txt" onclick="Copiartxt()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="scrip.js"></script>
+</body>
+<footer>
+    <h4>Actividad Alura - Mariana Almeida</h4>
+        <div class="contacto">
+        <a href="https://github.com/Mariana-al-cer"><img class="logoGit" src="github.png" alt="icono de github"></a>
+        </div>
+</footer>
+</html>
