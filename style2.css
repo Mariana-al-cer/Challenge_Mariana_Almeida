@@ -92,12 +92,14 @@ textarea{
     border-radius: 24px;
     color: #427a5b;
     margin-left: 20%;
-    margin-top: 3%;
+    margin-top: 10%;
     padding: 2% 0%;
     position:relative;
-    height: 40%;
-    width: 30%;
+    height: 90%;
+    width: 70%;
     box-shadow: 10px 24px 32px 8px black;
+    display: flex;
+    overflow: hidden;
 }
 
 .texto_derecha:focus{
