@@ -413,7 +413,7 @@ footer{
         width: 40%; 
         max-width: 500px;
         margin-top: 50%;
-        position: absolute; 
+        position: relative; 
         flex-direction: column;
         align-items: center;
         padding: auto;
